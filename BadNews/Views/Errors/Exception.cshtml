@@ -1,0 +1,16 @@
+﻿@model string
+
+<!-- Body -->
+
+<main role="main" class="container">
+    <h3 class="text-center text-danger">�� ����� ��������� ������ ������� �������� ������</h3>
+
+    @if (!string.IsNullOrEmpty(Model))
+    {
+        <p class="text-center"><strong>Request ID:</strong> <code>@Model</code></p>
+    }
+
+    <p class="text-center"><a href="/">��������� �� ������� ��������</a></p>
+</main>
+
+<!--/ Body -->
